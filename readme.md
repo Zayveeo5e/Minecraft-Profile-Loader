@@ -21,4 +21,3 @@ Notes
 >) This only works with the default minecraft launcher and only if it is installed in the default location on your "C" drive.
 >) DO NOT rename folders manually. A lot of the file names are required for the batch files to work the way they do.
 >) The uses a couple files from "GnuWin32" CoreUtils. All credit for that goes to them.
-
