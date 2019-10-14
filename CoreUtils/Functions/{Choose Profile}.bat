@@ -1,6 +1,10 @@
 @echo off
 cls
 
+set /p mytextfile=< %~dp0\..\current.txt
+cls
+echo Current Profile is %mytextfile%
+
 cd "%~dp0\..\ModpackSwitchers"
 
 setlocal enabledelayedexpansion
