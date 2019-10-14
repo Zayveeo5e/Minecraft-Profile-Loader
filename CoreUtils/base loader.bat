@@ -1,4 +1,6 @@
 cd "%~dp0\.."
+cls
+echo Loading Profile...
 .\rm.exe -r "C:\Users\%username%\AppData\Roaming\.minecraft\mods"
 .\cp.exe -r "C:\Users\%username%\AppData\Roaming\.minecraft\config\*" "%~dp0\..\modpacks\%~n0\config\*"
 .\rm.exe -r "C:\Users\%username%\AppData\Roaming\.minecraft\config"
